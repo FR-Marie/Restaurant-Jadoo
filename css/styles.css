@@ -16,9 +16,17 @@ header{
 }
 .logo{
   margin-left: 10%;
+  padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: salmon;
+    font-weight: bold;
+    font-size: 25px;
 }
 nav{
-    margin-right: 10%;
+    margin-right: -30%;
+    
 }
 .logo img:first-child{
     margin-right: 20px;
