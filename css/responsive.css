@@ -3,21 +3,46 @@
 @media screen and (max-width: 1024px){
     body{
         background-color: rgb(231, 88, 73);
-        margin: 0%;
-        padding: 0%;
+        margin: 0;
+        padding: 0;
     }
+
+    /**TITRES TAILLES**/
+
+    .souligne-texte-rose{
+        font-size: 60px;
+    }
+    .voyage-gastronomique{
+        font-size: 60px;
+    }
+
+
+
+    .article-1{
+        text-align: center;
+    } 
     .conteneur-carte.conteneur-carte-en-ligne {
         margin-top: 800px;   
     }
-    .photos-hors-champs img{
-        width: 100%;
+
+    #section3{
+        display: block;
+        text-align: center;
+        background-image: url(../img/illustration_chef.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%; 
     }
+    .video-lecture-bouton{
+        margin-left: 200px;
+    }
+    .photos-hors-champs img{
+        width: 100%
 }
 @media screen and (max-width: 990px){
     body{
         background-color: rgb(250, 248, 114);
-        margin: 0%;
-        padding: 0%;
+        margin: 0;
+        padding: 0;
     }
     .menu-bouton{
         display: none;
@@ -31,9 +56,5 @@
         background-color: rgb(114, 250, 159);
         margin: 0;
         padding: 0;
-    }
-    .article-1{
-        text-align: center;
-    }
-    
+    } 
 }
