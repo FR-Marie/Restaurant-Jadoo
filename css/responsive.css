@@ -41,9 +41,13 @@
     }
     .photos-hors-champs img{
         height: 593px;
+        margin-top: 300px;
     }
 
     /***SECTION 4***/
+    #section4{
+        margin-top: 300px;
+    }
     .rapide-et-pratique{
         margin-left: 10%;
         text-align: left;
@@ -74,4 +78,38 @@
         top: 180px;
         padding-bottom: 30px;
     }
+}
+
+/*****************ECRAN 600PX**********************/
+@media screen and (max-width: 656px){
+
+    /***SECTION 1***/
+    .article-1{
+        padding-right: 50px;
+        text-align: center;
+    }
+    .texte-couleur-saumon{
+        font-size: 14px;
+    }
+    .souligne-texte-rose{
+        font-size: 50px;
+        background-size: 280px;
+        background-position: 155px 100%;
+    }
+    .texte-couleur-gris-1{
+        font-size: 12px;
+    }
+
+    /***SECTION 3***/
+    
+    
+    .voyage-gastronomique{
+        display: none;
+    }
+    .texte-blanc{
+        display: none;
+    }
+    
+
+
 }

@@ -59,9 +59,9 @@ header nav ul{
 }
     
 .article-1{
-    height: 700px;
     margin-left: 10%;
     padding-top: 40px;
+    padding-bottom: 50px;
 }
 h3{
     font-family: "poppins-bold";
