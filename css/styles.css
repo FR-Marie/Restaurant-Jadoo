@@ -236,7 +236,7 @@ figcaption{
     margin-top: -50px;
 }
 .texte-blanc{
-    max-width: 100%;
+    max-width: 500px;
     font-family: "poppins-regular";
     font-size: 16px;
     color: white;
@@ -450,6 +450,7 @@ footer{
     display: block;
     align-items: center;
     max-width: 100%;
+    padding: 0 20px 0 20px;
 }
 .logo-1, .logo-2{
     display: inline-flex;
@@ -470,6 +471,7 @@ footer{
 .footer-plan{
     display: flex;
     justify-content: center;
+    padding: 0 20px 0 20px;
 }
 .texte-titre{
     font-family: "poppins-bold";
@@ -487,6 +489,7 @@ footer{
 .footer-uber{
     align-items: center;
     max-width: 100%;
+    padding: 0 20px 0 20px;
 }
 .image-uber-eats img{
     height: 40px;

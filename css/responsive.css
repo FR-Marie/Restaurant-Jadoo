@@ -11,19 +11,67 @@
     }
 
     /***SECTION 1***/
-    .article-1{
-        text-align: center;
-        margin-left: 0;
-    }
-    .souligne-texte-rose{
-        background-position: 259px 293px;
-    }
+    
 
     /***SECTION 2***/
     .conteneur-carte.conteneur-carte-en-ligne{
         padding-top: 770px;
     }
+    .bouton-jaune2{
+        margin: 30px;
+    }
 
     /**SECTION 3***/
-    
+    .conteneur-video{
+        margin-left: 10%;
+    }
+    .video-lecture-bouton{
+        margin-left: 190px;
+    }
+
+    .voyage-gastronomique{
+        text-align: left;
+        margin-left: 10%;
+        font-size: 40px;
+    }
+    .texte-blanc{
+        text-align: left;
+        margin-left: 10%;
+        font-size: 15px;
+    }
+    .photos-hors-champs img{
+        height: 593px;
+    }
+
+    /***SECTION 4***/
+    .rapide-et-pratique{
+        margin-left: 10%;
+        text-align: left;
+    }
+    .commandez{
+        text-align: left;
+        margin-left: 10%;
+    }
+    .conteneur-commandes{
+        margin-left: -10%;
+    }
+    .bouton-jaune3{
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+
+    /***SECTION 5***/
+    .envoyer{
+        margin-left: 40px;
+    }
+
+    /***FOOTER***/
+    footer{
+        padding-bottom: 200px;
+    }
+    .copyright{
+        position: relative;
+        top: 180px;
+        padding-bottom: 30px;
+    }
 }
