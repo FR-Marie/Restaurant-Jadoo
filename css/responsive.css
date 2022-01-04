@@ -1,60 +1,29 @@
-/***ECRAN LARGE 1200PX***/
+/******ECRAN EN 950*******/
 
-@media screen and (max-width: 1024px){
-    body{
-        background-color: rgb(231, 88, 73);
-        margin: 0;
-        padding: 0;
-    }
+@media screen and (max-width: 950px){
 
-    /**TITRES TAILLES**/
-
-    .souligne-texte-rose{
-        font-size: 60px;
-    }
-    .voyage-gastronomique{
-        font-size: 60px;
-    }
-
-
-
-    .article-1{
-        text-align: center;
-    } 
-    .conteneur-carte.conteneur-carte-en-ligne {
-        margin-top: 800px;   
-    }
-
-    #section3{
-        display: block;
-        text-align: center;
-        background-image: url(../img/illustration_chef.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%; 
-    }
-    .video-lecture-bouton{
-        margin-left: 200px;
-    }
-    .photos-hors-champs img{
-        width: 100%
-}
-@media screen and (max-width: 990px){
-    body{
-        background-color: rgb(250, 248, 114);
-        margin: 0;
-        padding: 0;
-    }
+    /***NAV BAR***/
     .menu-bouton{
         display: none;
     }
     #menu-burger{
         display: block;
     }
-}
-@media screen and (max-width: 656px){
-    body{
-        background-color: rgb(114, 250, 159);
-        margin: 0;
-        padding: 0;
-    } 
+
+    /***SECTION 1***/
+    .article-1{
+        text-align: center;
+        margin-left: 0;
+    }
+    .souligne-texte-rose{
+        background-position: 259px 293px;
+    }
+
+    /***SECTION 2***/
+    .conteneur-carte.conteneur-carte-en-ligne{
+        padding-top: 770px;
+    }
+
+    /**SECTION 3***/
+    
 }
