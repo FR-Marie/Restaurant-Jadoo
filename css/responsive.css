@@ -14,9 +14,7 @@
     
 
     /***SECTION 2***/
-    .conteneur-carte.conteneur-carte-en-ligne{
-        padding-top: 770px;
-    }
+    
     .bouton-jaune2{
         margin: 30px;
     }
@@ -75,12 +73,11 @@
     }
     .copyright{
         position: relative;
-        top: 180px;
         padding-bottom: 30px;
     }
 }
 
-/*****************ECRAN 600PX**********************/
+/*****************ECRAN 656PX**********************/
 @media screen and (max-width: 656px){
 
     /***SECTION 1***/
@@ -100,16 +97,36 @@
         font-size: 12px;
     }
 
-    /***SECTION 3***/
-    
-    
-    .voyage-gastronomique{
-        display: none;
-    }
-    .texte-blanc{
-        display: none;
-    }
-    
 
+    /***SECTION 3***/
+    .article-1{
+        display: none;
+    }
+    .conteneur-video{
+        margin:0;
+    }
+    .conteneur-video img{
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+    .video-lecture-bouton{
+        top: -220px
+    }
+    #section3{
+        background: none;
+    }
+    .petit-chef img{
+        width: 100%;
+        display: block;
+        margin-top: -75px;
+    }
+    .photos-hors-champs img{
+        width: 100%;
+        margin: 0;
+    }
+    .photos-hors-champs{
+        margin-top: auto;
+    }
 
 }

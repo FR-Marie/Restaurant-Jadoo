@@ -157,7 +157,7 @@ figcaption{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 300px;
+    margin-top: 40px;
 }
 .conteneur-carte.conteneur-carte-en-ligne{
     width: 100%;
@@ -240,12 +240,14 @@ figcaption{
     font-family: "poppins-regular";
     font-size: 16px;
     color: white;
+    padding-bottom: 300px;
 }
-
+.petit-chef img{
+    display: none;
+}
 .photos-hors-champs{
     position: absolute;
     flex-wrap: wrap;
-    margin: 50px 0px 0px 0px;
     display: flex;
     margin: -300px 0px;
 }
@@ -441,7 +443,6 @@ footer{
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
-    height: 200px;
     justify-content: space-around;
 }
 
