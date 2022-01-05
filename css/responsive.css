@@ -196,5 +196,104 @@
 /**************ECRAN 320PX**************/
 
 @media screen and (max-width: 320px){
+
+    .texte-couleur-saumon{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 25px;
+    }
+
+    .souligne-texte-rose{
+        font-size: 35px;
+        background-position-x: 40px;
+        background-position-y: 240px;
+        background-size: 200px;
+    }
+    .bouton-jaune{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+
+    /********SECTION 2********/
+    #section2{
+        padding: 0;
+        padding-top: 100px;
+    }
+    .plat{
+        width: 250px;
+    }
+    .plat img{
+        width: 250px;
+    }
+    .bouton-jaune2{
+        font-size: 12px;
+        padding: 10px 15px;
+        margin-bottom: 70px;
+    }
+
+
+    /********SECTION 3********/
+    .video-lecture-bouton{
+        margin: 0;
+        top: -130px;
+    }
+    .photos-hors-champs img{
+        height: 380px;
+    }
+
+
+    /********SECTION 4********/
+    #section4{
+        margin-top: 430px;
+    }
+    .commandez{
+        width: auto;
+    }
+    .commande-ubereats{
+        width: auto;
+        margin-left: 20%;
+    }
+    .commande-jadoo{
+        width: auto;
+        margin-left: 20%;
+    }
+    .livraison{
+        width: auto;
+        margin-left: 20%;
+    }
+
+
+    /********SECTION 5********/
+    #section5{
+        padding: 0;
+    }
+    .conteneur-formes{
+        box-shadow: none;
+    }
+    .formulaire1{
+        color: salmon;
+    }
+    .formulaire2{
+        color: grey;
+    }
+    .forme-gauche{
+        padding-left: 20px;
+        padding-right: 0;
+    }
+
+    .formulaire-2-champs-inline{
+        display: block;
+        text-align: left;
+    }
+    .email{
+        text-align: left;
+    }
+    .message{
+        text-align: left;
+    }
+    input{
+        text-align: left;
+    }
     
 }
