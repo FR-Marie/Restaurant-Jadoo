@@ -20,6 +20,9 @@
     }
 
     /**SECTION 3***/
+    #section3{
+        padding: 0;
+    }
     .conteneur-video{
         margin-left: 10%;
     }
@@ -44,7 +47,8 @@
 
     /***SECTION 4***/
     #section4{
-        margin-top: 300px;
+        margin-top: 280px;
+        padding: 50px 0px;
     }
     .rapide-et-pratique{
         margin-left: 10%;
@@ -137,7 +141,7 @@
 
     #section4{
         background-image: none;
-        margin-top: 870px;
+        margin-top: 830px;
         text-align: center;
     }
     .rapide-et-pratique{
@@ -245,7 +249,7 @@
 
     /********SECTION 4********/
     #section4{
-        margin-top: 430px;
+        margin-top: 415px;
     }
     .commandez{
         width: auto;
